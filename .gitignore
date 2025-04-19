@@ -1,0 +1,21 @@
+# Java (Spring Boot)
+backend/target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Node (React)
+frontend/node_modules/
+
+# Environment variables
+*.env
+
+# Operating System files
+.DS_Store    # macOS
+Thumbs.db    # Windows
+
+# IDE specific files (optional but recommended)
+.idea/       # JetBrains IDEs
+.vscode/     # VSCode

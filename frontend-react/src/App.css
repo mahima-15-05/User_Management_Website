@@ -1,0 +1,181 @@
+/* navbar */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+body{
+  background-color: black;
+  color: white;
+  
+}
+
+.nav-item-link{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  
+}
+.nav-item-link:hover{
+  color: rgb(170, 173, 146);
+}
+.nav-list{
+  display: flex;
+  gap: 30px;
+}
+.nav-item{
+  list-style: none;
+
+}
+.navbar{
+  background-color: rgb(93, 14, 51);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 40px ;
+
+
+}
+
+.logo{
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+.sign-btn button{
+  background-color: wheat;
+  color: black;
+  padding: 10px 18px ;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  /* transition: wheat 0.3s ease; */
+
+}
+
+.sign-btn button:hover{
+  background-color: rgb(137, 109, 59);
+}
+
+
+/* user-table */
+.user-table-container{
+  padding: 20px;
+  /* max-width: 600px; */
+  margin: auto;
+}
+
+.custom-table{
+  border: 1px solid white;
+  table-layout: fixed;
+
+  width: 100%;
+  border-collapse: collapse;
+  /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); */
+}
+
+.custom-table th,
+.custom-table td {
+  text-align: left;
+  padding: 12px  15px;
+  border: 1px solid white;
+}
+
+.table-heading{
+  padding: 20px;
+  /* text-decoration: underline; */
+  color: rgb(174, 10, 87);
+}
+
+.custom-table thead{
+  background-color:rgb(93, 14, 51);
+
+}
+
+.custom-table tbody tr{
+  background-color:rgb(73, 73, 73);
+
+}
+.custom-table tbody tr:hover {
+  background-color: #444c4f;
+  /* color: brown; */
+  
+}
+.action{
+  width: 100px;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 18px;
+}
+
+.btn-link{
+  text-decoration: none;
+}
+.action:hover{
+  background-color: rgb(93, 14, 51);
+  .btn-link{
+    color:white;
+    font-weight: bold;
+  }
+ 
+}
+
+/* add user form */
+.form-container{
+  padding: 30px 18px;
+}
+
+.add-user-btn{
+  margin: 27px 5px;
+  width: 100px;
+}
+
+.btn-add, .submit-add-user{
+  padding: 10px;
+  border-radius: 19px;
+  width: 100px;
+  
+}
+.btn-add:hover, .submit-add-user:hover{
+color: white;
+background-color:rgb(93, 14, 51) ;
+font-weight: bold;
+
+}
+.submit-add-user{
+margin: 5px 0px;
+}
+.form-container{
+  /* padding: 50px; */
+  padding: 2px 18px;
+}
+.form-item-container{
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.form-item-container input{
+  margin: 10px 0px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+
+.form-heading{
+  font-weight: bold;
+  margin: 26px 15px 25px 35px;
+  color: rgb(186, 82, 82);
+
+  text-decoration: underline;
+  
+
+}
+.update-btn{
+  color: rgb(70, 1, 134);
+}
+
+
