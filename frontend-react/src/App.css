@@ -11,6 +11,11 @@ body{
   color: white;
   
 }
+body, html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;  /* Prevent scrolling */
+}
 
 .nav-item-link{
   text-decoration: none;
@@ -125,7 +130,14 @@ body{
 
 /* add user form */
 .form-container{
+  
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically */
+  height: 100vh;            /* Full viewport height */
   padding: 30px 18px;
+ /* width: 600px;
+  height: 390px;  */
+ 
 }
 
 .add-user-btn{
@@ -149,13 +161,16 @@ font-weight: bold;
 margin: 5px 0px;
 }
 .form-container{
+ 
   /* padding: 50px; */
-  padding: 2px 18px;
+  /* padding: 2px 18px; */
+  padding: 5px 78px;
 }
 .form-item-container{
   padding: 12px;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .form-item-container input{
   margin: 10px 0px;
@@ -179,3 +194,143 @@ margin: 5px 0px;
 }
 
 
+/* Login form */
+
+.login-form{
+  /* border: 1px solid white; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+
+  
+}
+.username, .password{
+  padding: 10px;
+  
+}
+.inp-username{
+  padding: 5px;
+  
+}
+.inp-password{
+  padding: 5px;
+  
+}
+.username label, .password label{
+  font-size: 20px;
+  margin-right: 12px;
+}
+
+.login-btn-div{
+  margin: 7px 0px;
+  height: 30px;
+  padding: 5px;
+}
+.login-btn-link{
+  text-decoration: none;
+  padding: 10px;
+  font-size: 18px;
+  
+}
+.login-btn{
+  height: 50px;
+  width: 120px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.form-container{
+  background-color: white;
+  color: black;
+  /* height: 300px; */
+  
+}
+/* new code */
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* .login-form {
+  background: #f4f4f4;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+} */
+
+.form-container {
+  /* display: flex;/ */
+  flex-direction: column;
+  padding: 20px 35px;
+  /* width: 400px;*/
+  height: 390px; 
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.inp-username,
+.inp-password {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-btn-div {
+  display: flex;
+  justify-content: center;
+}
+
+.login-btn {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(137, 44, 88);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: rgb(93, 14, 51);
+}
+.heading-login{
+    margin-bottom: 50px;
+    
+    text-align: center;
+    font-size: 25px;
+    color: rgb(93, 14, 51);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.reg-para{
+  margin: 30px 5px;
+}
+.reg-para a{
+ text-decoration: none;
+ 
+}
+.a-1{
+  color: black;
+  cursor: auto;
+  /* font-weight: bolder; */
+}
+
+.link-reg{
+  cursor: pointer;
+  color: blue;
+}
